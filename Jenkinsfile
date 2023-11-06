@@ -10,7 +10,7 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false, 
                     extensions: [], 
                     submoduleCfg: [], 
-                    userRemoteConfigs: [[url: 'https://github.com/ankitpatidar7722/portfolio.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/Avishkant/staynow.github.io.git']]
                 ])
             }
         }
