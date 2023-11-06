@@ -1,101 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style1.css">
-  <title>Himalaya</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header class="main-header clearfix" role="header">
-    <div class="logo">
-      <a href="#"><em>Himalaya</em> </a>
-    </div>
-    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-    <nav id="menu" class="main-nav" role="navigation">
-      <ul class="main-menu">
-        <li><a href="#section1">Home</a></li>
-        <li class="has-submenu"><a href="#section2">Academics</a>
-          <ul class="sub-menu">
-            <li><a href="assets/arts.html">Arts</a></li>
-            <li><a href="assets/science.html">Science</a></li>
-            <li><a href="assets/commerce.html">Commerce</a></li>
-          </ul>
-        </li>
-        <li><a href="admission.html">Admission</a></li>
-        <!-- <li><a href="#section5">Video</a></li> -->
-        <li><a href="gallery.html">gallery</a></li>
-        <li><a href="contact.html" class="external">contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- ***** Main Banner Area Start ***** -->
-  <section class="section main-banner" id="top" data-section="section1">
-
-    <img class="homeinage" src="photos/homeimg.jpg" alt="">
-
-    <div class="video-overlay header-text">
-      <div class="caption">
-        <!-- <h6>Graduate School of Management</h6> -->
-        <h2><em>Himalaya</em> institute of technology</h2>
-        <div class="main-button">
-          <div class="scroll-to-section"><a href="#section1">Discover more</a></div>
+    <header>
+    <div class="navbar">
+        <div class="navlogo border">
+            <div class="logo"></div>
         </div>
-      </div>
+        <div class="nav-address border">
+            <p class="first-add">Deliver to</p>
+            <div class="add-icons">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="second-add">India</p>
+            </div>
+        </div>
+        <div class="nav-search border">
+            <select class="searchselect">
+                <option>All</option>
+            </select>
+            <input placeholder="Search amazon" class="searchinput">
+            <div class="searchicon">
+            <i class="fa-solid fa-magnifying-glass"></i></div>
+            
+        </div>
+        <div class="nav-signin border">
+        <p><span>Hello, sign in</span></p>
+        <p class="nav-second">Accounts & lists</p></div>
+        <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p></div>
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
     </div>
-  </section>
-  <section id="section1" class="sec2">
-    <img class="section2img" src="photos/main-slider-03.jpg" alt="">
-    <h1
-      style="border:rgb(255, 255, 255); border-width:5px; border-style:solid; position: relative; text-align: center; color: #FC3; font-weight: 900;">
-      ABOUT </h1>
-    <!-- <strong class="about">About</strong> -->
-    <p
-      style="position: relative; color:aliceblue; font-size:larger; text-align: justify; padding: 30px; margin-left: 20%; margin-right: 20%;  ">
-      Himalaya Institute of Science and Technology, Indore has glorious history
-      under Shri Vaishnav Shaikshanik Avam Parmarthik Nyas, Indore established
-      in the year 1987. The Nyas founded Shri vaishnav Shikshan Samiti and under
-      its aegis Himalaya Institute of Science and Technology, Indore is progressively
-      leading towards success. It has conferred with the award of being the oldest
-      Self Finance Institute of M.P. by CMAI, Asia. The institute is approved by
-      Govt. of Madhya Pradesh as an 'A' Category Institute.
-    </p>
-    <p
-      style="position: relative; color:aliceblue; font-size:larger; text-align: justify; padding: 30px; margin-left: 20%; margin-right: 20%;  ">
-      The Institute proudly announces the UGC- NAAC Accreditation with ‘A’ Grade
-      in two consecutive cycles in 2012 and 2017 respectively indicating its highest
-      commitment of quality in all aspects. During past 33 years journey, it has been
-      serving the society by providing excellent environment for education in area of
-      Management and Computer Science. It promotes the innovative teaching methodologies
-      to help students gain practical knowledge and better insights about applying the
-      theoretical knowledge. It believes in imparting education along with preparing
-      students for corporate world. With a lush green campus spread over an area of seven
-      acres located in the heart of the Indore city, the institute is well connected
-      through all means of transport
-    </p>
-    <div class="box circle inner-border">
+    <div class="panel ">
+        <div class="panel-all border">
+            <i class="fa-solid fa-bars"></i>All
+        </div>
+        <div class="panel-ops border">
+            <p>Today's Deals </p>
+            <p>  Customer Service </p>
+            <p>  Registry </p>
+            <p>  Gift card </p>
+            <p> Sell </p>
+           
+        </div>
+        <div class="panel-deals border">Shop deals in Electronic</div>
+    </div>
+</header>
+<div class="hero-section">
+    <div class="hero-msg">
+        <p>You are on amazon.com. You can also shop on Amazon india for millions of product with fast local delivery.  <a>Click here to go to amazon.in</a></p>
+    </div>
+</div>
+<div class="shop-section">
+    <div class="box1 box">
+        <div class="box-content">
+            <h2>Cloths & Blinket</h2>
+            <div class="box-image" style="background-image:url('box1_image.jpg')" ></div>
+            <p>See more</p>
+        </div>
+    </div>
+    <div class="box2 box">
+        <div class="box-content">
+            <h2>Health & Personal Care</h2>
+            <div class="box-image" style="background-image:url('box2_image.jpg')" ></div>
+            <p>See more</p>
+        </div>
+    </div>
+    <div class="box3 box"><div class="box-content">
+        <h2>Tables & Furniture</h2>
+        <div class="box-image" style="background-image:url('box3_image.jpg')" ></div>
+        <p>See more</p>
+    </div></div>
+    <div class="box4 box"><div class="box-content">
+        <h2>Mobiles & Electronic devices</h2>
+        <div class="box-image" style="background-image:url('box4_image.jpg')" ></div>
+        <p>See more</p>
+    </div></div>
+    <div class="box1 box">
+        <div class="box-content">
+            <h2>Beauty Pick's</h2>
+            <div class="box-image" style="background-image:url('box5_image.jpg')" ></div>
+            <p>See more</p>
+        </div>
+    </div>
+    <div class="box2 box">
+        <div class="box-content">
+            <h2>Shop Pet Supplies</h2>
+            <div class="box-image" style="background-image:url('box6_image.jpg')" ></div>
+            <p>See more</p>
+        </div>
+    </div>
+    <div class="box3 box"><div class="box-content">
+        <h2>New arrivals in Toys</h2>
+        <div class="box-image" style="background-image:url('box7_image.jpg')" ></div>
+        <p>See more</p>
+    </div></div>
+    <div class="box4 box"><div class="box-content">
+        <h2>Fashon's</h2>
+        <div class="box-image" style="background-image:url('box8_image.jpg')" ></div>
+        <p>See more</p>
+    </div></div>
+</div>
+<footer>
+    <div class="foot-panel1">
+        <a>Back To Top </a>
+    </div>
+    <div class="foot-panel2">
+        <ul>
+       <p> Get to Know Us</p>
+<a>About us</a>
+<a>Careers</a>
+<a>Press Releases</a>
+<a>Amazon Science</a>
+</ul>
+<ul>
+    <p>Connect with Us</p>
+<a>Facebook</a>
+<a>Twitter</a>
+<a>Instagram</a>
+</ul>
+<ul>
+   <p> Make Money with Us</p>
+   <a>Sell on Amazon</a>
+ <a>Sell under Amazon Accelerator</a>
+ <a>Protect and Build Your Brand</a>
+ <a>Amazon Global Selling</a>
+<a>Become an Affiliate</a>
+ <a>Fulfilment by Amazon</a>
+   <a>Advertise Your Products</a>
+  <a>Amazon Pay on Merchants</a>
 
+</ul>
+<ul>
+    <p>Let Us Help You</p>
+    <a>COVID-19 and Amazon</a>
+<a>Your Account</a>
+<a>Returns Centre</a>
+ <a>100% Purchase Protection</a>
+<a>Amazon App Download</a>
+<a>Help</a>
+</ul>
     </div>
-  </section>
-  <!-- ***** Main Banner Area End ***** -->
-  <footer>
-    <div class="footercontainer">
-      <div class="footerLeftContainer">
-        <a href="index.html"><img class="footerlogo" src="photos/logo1.png" alt="logo"></a>
-        <h3 class="footerhead">HIMALAYA INSTITUTE OF TECHNOLOGY</h3>
-        <h4>Address: Scheme No. 71, Gumasta Nagar, Indore</h4>
-        <h4>Toll Free No. 8800112233</h4>
-      </div>
-      <div class="footerRightContainer">
-        <h3>Connect with us</h3>
-      </div>
+    <div class="foot-panel3">
+        <div class="logo"></div>
     </div>
-  </footer>
+    <div class="foot-panel4">
+        <div class="pages">
+            <a>Condition of Use & Sell</a>
+            <a>Privacy Notice</a>
+            <a>Interest-Based Ads</a>
+        </div> 
+        <div class="copyright">
+            © 1996-2023, Amazon.com, Inc. or its affiliates
+        </div>
+    </div>
+
+</footer>
 </body>
-
 </html>
