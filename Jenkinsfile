@@ -19,7 +19,7 @@ pipeline {
             steps {
                 // Copy the code to the Apache document root directory
                 bat script: '''
-                    xcopy /s /e /y "C:\\Users\\Hp\\OneDrive\\Desktop\\portfolio" "C:\\Apache24\\htdocs"
+                    xcopy /s /e /y "C:\\Users\\Hp\\OneDrive\\Desktop\\staynow.github.io" "C:\\Apache24\\htdocs"
                 '''
             }
         }
